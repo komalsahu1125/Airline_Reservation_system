@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Document</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <b>
+    <header>
+        <div class="container">
+            <div class="left">
+               <h1>BILLING ADDRESS</h1>
+               <form action="payment_form.php" method="post">
+                Full Name:- 
+                <input type="text" name="name" placeholder="enter name">
+                 <br><br>
+                Email:-
+                <input type="email" name="email" placeholder="enter mail">
+                 <br><br>
+                Address:- 
+                <input type="text" name="address" placeholder="enter name">
+                 <br>
+                City:- 
+                <input type="text" name="city" placeholder="enter name">
+              <div id="pin">
+                   <!-- <label>State
+                        <select >
+                            <option value="Choose State......"></option>
+                            <option value="">choose state.....</option>
+                            <option value="Rajasthan"></option>
+                            <option value="">Mumbai</option>
+                            <option value="">Hariyana</option>
+                            <option value="">Uttar Pradesh</option>
+                            <option value="">Madhya pradesh</option>
+                            <option value="">Bihar</option>
+                        </select>
+                    </label>-->
+                    <label for="">
+                        state:-
+                        <input type="text" placeholder="enter your state" name="state">
+                    </label>
+              </div>
+
+
+              <div>
+                 <label for="">
+                        Pin Code:-
+                        <input type="number" placeholder="enter pincode" name="pincode">
+                    </label>
+                </div>
+            
+            </div>
+            <div class="right">
+                <h1>Payment</h1>
+           
+              
+                   Accepted Card:- <br>
+                   <img src="../pay1.jpg" alt="" width="20%">
+                   <img src="../pay2.jpg" alt="" width="20%">
+                   <img src="../pay4.jpg" alt="" width="25%">
+                   <img src="../pay5.jpg" alt="" width="20%">
+                   <br><br>
+                
+                    Cradit Card Number:- <input type="text" name="card" placeholder="enter card number">
+                    <br>
+                    Exp Month:-  <input type="text" name="month" placeholder="enter month">
+                    <br>
+                    <div id="pin">
+                        <label>Exp Year
+                            <select >
+                                <option>Choose Year....</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                            </select>
+                        </label>
+                        <label for="">
+                            CVV:-
+                            <input type="number" placeholder="enter CVV" name="cvv">
+                        </label>
+                    </div>
+             <div>
+                   <input class="submit" type="submit" value="Proceed to checkout" name="submit">
+                   </div>
+                   </form>
+            </div>
+        </div>
+    </header>
+</b>
+</body>
+</html>

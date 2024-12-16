@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size:14p;
+    background:transparent;
+    background: url(../pic6.webp);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container {
+    background: transparent;
+    width: 500px;
+    padding: 25px;
+    margin: 50px  auto 0;
+    border-top: 5px solid rgb(132, 15, 164);
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.container h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    background: transparent;
+    text-align: center;
+}
+
+.input-name {
+ width: 90%;
+ position:relative;
+ margin: 20px auto;
+ font-size: 1.5rem;
+ font-size: 1.5rem;
+}
+
+
+.lock{
+    padding: 8px 11px;
+}
+
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name span{
+    margin-left: 30px;
+
+}
+
+.text-name{
+    width:  100%;
+    padding: 8px 0 8px 40px;
+
+}
+
+
+
+.input-name i{
+    size: 0;
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+   
+
+}
+
+.email{
+    padding: 8px;
+}
+
+.text-name, .name{
+    border: 1px solid #cccccc;
+    
+}
+
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+
+.text-name:focus, .name:focus{
+    border: 1px solid blue;
+}
+
+.radio-button{
+    margin-right: 4px;
+}
+
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    border-radius: 0;
+    background: white;
+    appearance: none;
+
+}
+
+.country:hover, .country:focus{
+    color: blue;
+    background: #fafafa;
+    border-color: blue;
+    outline: none;
+}
+
+.arrow{
+    position:absolute;
+    top:calc(50% - 4px);
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent transparent transparent
+}
+
+
+.country:hover + .arrow, .country:focus +arrow{
+    border-top-color: blue;
+}
+
+.button{
+    background-color: #4a0a68;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: blueviolet;
+}
+
+.input-name .a{
+    background-color: #4a0a68;
+    color: rgb(71, 14, 14);
+}
+.input-name p a{
+    font-size: 2rem;
+    color:white;
+}
+.input-name p a:hover{
+    text-decoration: underline;
+    color: #fafafa;
+    cursor: pointer;
+}
